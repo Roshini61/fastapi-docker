@@ -46,7 +46,7 @@ def main():
             st.write("User Query: " + user_query)
 
             # Initialize Groq client with API key
-            client = Groq(api_key='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')
+            client = Groq(api_key='')
             completion = client.chat.completions.create(
                 model="llama3-70b-8192",
                 messages=[
