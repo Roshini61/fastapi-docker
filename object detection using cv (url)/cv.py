@@ -65,7 +65,7 @@ print("Login successful! Hello, user.")
 model = YOLO('yolov8n.pt')  # More accurate model
 
 # Initialize video capture
-video_path = r"C:\Users\HP\Downloads\WhatsApp Video 2024-05-27 at 14.58.25_4ff504ab.mp4"
+video_path = "https://youtu.be/fBE_2sHDt4E?si=9Rx5AZNEl7B6hBk1"
 cap = cv2.VideoCapture(video_path)
 
 if not cap.isOpened():
